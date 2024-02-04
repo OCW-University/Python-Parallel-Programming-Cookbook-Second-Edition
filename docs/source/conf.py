@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Python Parallel Computing Cookbook Notebook'
+project = 'Python Parallel Computing Cookbook Glossary'
 copyright = '2024, Jialin Yi'
 author = 'Jialin Yi'
 
