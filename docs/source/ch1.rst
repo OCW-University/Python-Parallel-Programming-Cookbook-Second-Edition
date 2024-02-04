@@ -39,12 +39,16 @@ MIMD
 Each (potential different) instruction gets executed with multiple data inputs. This is where process/thread-based parallelism happened in morden computers.
 
 
-Shared memory in MIMD
+Memory organization in MIMD
 =====
 
-Cache coherence
+Shared memory in MIMD
 -----
+* the memory is same for all processor.
+* a memory location must not be changed by one task while another task accesses it.
+* sharing data among tasks should be fast.
+
 
 Distributed memory in MIMD
-=====
+-----
 
