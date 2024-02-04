@@ -4,23 +4,47 @@ Chapter 1: Getting Started with Parallel Computing and Python
 Computer system refresh
 =====
 
-**Instruction flow**: a sequence of instructions loaded by a program counter inside the control unit of a CPU.
+Instruction flow
+-----
 
-**Data flow**: a sequence of data loaded from the memory into the CPU.
+A sequence of instructions loaded by a program counter inside the control unit of a CPU.
+
+Data flow
+-----
+
+A sequence of data loaded from the memory into the CPU.
 
 
 Flynn's taxonomy
 =====
 
-**SISD**: This correponds to the normal von Neuman architecture.
+SISD
+-----
 
-**MISD**: Each (potential different) instruction gets executed with the same data concurrently.
+This correponds to the normal von Neuman architecture.
 
-**SIMD**: One instruction gets executed with multiple data inputs.
+MISD
+-----
 
-**MIMD**: Each (potential different) instruction gets executed with multiple data inputs. 
-     This is where process/thread-based parallelism happened in morden computers.
+Each (potential different) instruction gets executed with the same data concurrently.
+
+SIMD
+-----
+
+One instruction gets executed with multiple data inputs.
+
+MIMD
+-----
+
+Each (potential different) instruction gets executed with multiple data inputs. This is where process/thread-based parallelism happened in morden computers.
 
 
-Memory organization in MIMD
+Shared memory in MIMD
 =====
+
+Cache coherence
+-----
+
+Distributed memory in MIMD
+=====
+
