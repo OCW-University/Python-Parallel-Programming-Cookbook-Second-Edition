@@ -24,7 +24,8 @@ Flynn's taxonomy
    * - SISD
      - 1
      - 1
-     - This correponds to the normal von Neuman architecture as noted in `nand2tetris <https://www.nand2tetris.org/>`_
+     - This correponds to the normal von Neuman architecture 
+     as noted in `nand2tetris <https://www.nand2tetris.org/>`_
    * - MISD
      - m
      - 1
@@ -36,7 +37,8 @@ Flynn's taxonomy
    * - MISD
      - m
      - m
-     - Each (potential different) instruction gets executed with multiple data inputs. This is where process/thread-based parallelism happened in morden computers.
+     - Each (potential different) instruction gets executed with multiple data inputs. 
+     This is where process/thread-based parallelism happened in morden computers.
 
 
 Memory organization in MIMD
