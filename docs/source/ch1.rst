@@ -13,7 +13,8 @@ Flynn's taxonomy
 =====
 
 .. list-table:: Flynn's taxonomy on computer system
-   :widths: 25 25 50
+   :align: center
+   :widths: auto
    :header-rows: 1
 
    * - Architecture
