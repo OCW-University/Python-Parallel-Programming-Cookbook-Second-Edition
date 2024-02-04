@@ -12,17 +12,30 @@ Computer system refresh
 Flynn's taxonomy
 =====
 
+.. list-table:: Flynn's taxonomy on computer system
+   :widths: 25 25 50
+   :header-rows: 1
 
-**SISD**: 1 * instruction flow + 1 * data flow. This correponds to the normal von Neuman architecture as noted in `nand2tetris <https://www.nand2tetris.org/>`_
-
-
-**MISD**: m * instruction flow + 1 * data flow. Each (potential different) instruction gets executed with the same data concurrently.
-
-
-**SIMD**: 1 * instruction flow + m * data flow. One instruction gets executed with multiple data inputs.
-
-
-**MIMD**: m * instruction flow + m * data flow. Each (potential different) instruction gets executed with multiple data inputs. This is where process/thread-based parallelism happened in morden computers.
+   * - Architecture
+     - Instruction flow
+     - Data flow
+     - Explaination
+   * - **SISD**
+     - 1
+     - 1
+     - This correponds to the normal von Neuman architecture as noted in `nand2tetris <https://www.nand2tetris.org/>`_
+   * - **MISD**
+     - m
+     - 1
+     - Each (potential different) instruction gets executed with the same data concurrently.
+   * - **SIMD**
+     - 1
+     - m
+     - One instruction gets executed with multiple data inputs.
+   * - **MISD**
+     - m
+     - m
+     - Each (potential different) instruction gets executed with multiple data inputs. This is where process/thread-based parallelism happened in morden computers.
 
 
 Memory organization in MIMD
