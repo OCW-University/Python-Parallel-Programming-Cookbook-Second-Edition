@@ -42,13 +42,20 @@ Each (potential different) instruction gets executed with multiple data inputs. 
 Memory organization in MIMD
 =====
 
-Shared memory in MIMD
+Shared memory
 -----
-* the memory is same for all processor.
-* a memory location must not be changed by one task while another task accesses it.
-* sharing data among tasks should be fast.
+
+* All processors can access the shared memory in the same way.
+* The synchronization is obtained by reading the tasks of various processors and allowing the shared memory.
+* A memory location must not be changed by one task while another task accesses it.
+* Sharing data among tasks should be fast.
 
 
-Distributed memory in MIMD
+Distributed memory
 -----
+
+* Each processor can only address its own memory.
+* Synchronization is achieved by the communication between processors.
+* Distribution of the data among the processors affect the performance of system.
+* The communication protocol is message-passing.
 
