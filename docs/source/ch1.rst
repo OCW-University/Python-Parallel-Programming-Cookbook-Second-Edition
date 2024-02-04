@@ -12,6 +12,7 @@ Computer system refresh
 Flynn's taxonomy
 =====
 
+
 **SISD**: 1 * instruction flow + 1 * data flow. This correponds to the normal von Neuman architecture as noted in `nand2tetris <https://www.nand2tetris.org/>`_
 
 
